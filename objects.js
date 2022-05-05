@@ -1,22 +1,73 @@
+class NameField {
+  constructor(name) {
+    const field = document.createElement("li");
+    field.textContent = name;
+    const nameListHook = document.querySelector("#names");
+    nameListHook.appendChild(field);
+  }
+}
+
+class NameGenerator {
+  constructor() {
+    const btn = document.querySelector("button");
+    //DONOT this.addName
+    //if you make it this.addName()
+    //then the func will get executed even before the btn is clicked
+    //DO this.addName
+    //you need to make it this.addName
+    //then you just pass a reference of addName to the eventListener
+    //so when the btn is clicked it executes the addName
+    //DONOT names
+    //DO this.name
+    //if you leave it names then you can't access it from addName
+    //addName can only access class methods or global functions
+    //and in the case of names then it only can be accessed within constructor
+    //to create a property you must make it this.names(to attach names to the class)
+    //DONOT this.addName
+    //DO this.addName.bind(this)
+    this.names = ["Max", "Manu", "Anna"];
+    this.currentName = 0;
+    // this.addName.bind(this) tells addName that whenever you got executed
+    //use the this passed to bind not the one that executes you
+    //DO
+    // btn.addEventListener("click", this.addName.bind(this));
+    //DO it is also true
+    //()=>this.addName()===function{return this.addName();}
+    //so it will not get executed(the outer function) without the button get pressed
+    btn.addEventListener("click", () => this.addName());
+  }
+
+  addName() {
+    //NOTE this refers to whoever called a method that uses this
+    //due to that ass btn is the one that called addName then
+    //this will refers to btn not the object
+    //to fix that this.addName.bind(this)
+    //arrow functions is used to solve this problem without the need of bind
+    const name = new NameField(this.names[this.currentName++ % 3]);
+  }
+}
+
+const gen = new NameGenerator();
+
 //to make the calls chainable
 // The solution is to return the object itself from every call.
-let ladder = {
-  step: 0,
-  up() {
-    this.step++;
-    return this;
-  },
-  down() {
-    this.step--;
-    return this;
-  },
-  showStep: function () {
-    // shows the current step
-    print(this.step);
-    return this;
-  },
-};
-ladder.up().up().down().showStep().down().showStep(); // shows 1 then 0
+// let ladder = {
+//   step: 0,
+//   up() {
+//     this.step++;
+//     return this;
+//   },
+//   down() {
+//     this.step--;
+//     return this;
+//   },
+//   showStep: function () {
+//     // shows the current step
+//     print(this.step);
+//     return this;
+//   },
+// };
+// ladder.up().up().down().showStep().down().showStep(); // shows 1 then 0
 // ladder.up().showStep();
 // let calculator = {
 //   read() {
