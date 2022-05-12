@@ -1,12 +1,31 @@
 function p(str) {
   console.log(str);
 }
-//TODO continue strings exercises
 
-function ucFirst(str) {
-  return str == null || str == "" ? str : str[0].toUpperCase() + str.slice(1);
-}
-p(ucFirst(null));
+// function extractCurrencyValue(str)
+// {
+//   return str.slice(1);
+// }
+// p(extractCurrencyValue("$12000000000000"));
+// function truncate(str, maxLength) {
+//   if (str.length <= maxLength) return str;
+//   else return str.slice(0, maxLength - 1) + "...";
+// }
+// p(truncate("What I'd like to tell on this topic is:", 20) );
+
+// p(truncate("Hi everyone!", 20));
+// function checkSpam(str) {
+//   var lowerStr = str.toLowerCase();
+//   return lowerStr.includes("viagra") || lowerStr.includes("xxx");
+// }
+// p(checkSpam("buy ViAgRA now"));
+// p(checkSpam("free xxxxx"));
+// p(checkSpam("innocent rabbit"));
+
+// function ucFirst(str) {
+//   return str == null || str == "" ? str : str[0].toUpperCase() + str.slice(1);
+// }
+// p(ucFirst(null));
 
 //NOTE substrings methods
 //.includes() .startsWith .endsWith() if you want to check only existence
