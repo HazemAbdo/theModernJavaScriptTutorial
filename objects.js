@@ -2,6 +2,30 @@ function p(str) {
   console.log(str);
 }
 
+// let styles = ["Jazz", "Blues"];
+// styles.push("Rock-n-Roll");
+// p(styles.length);
+// styles[Math.floor(styles.length / 2)] = "classics";
+// p(styles);
+
+// p(styles.shift());
+// styles.unshift("Reggae");
+// styles.unshift("Rap");
+// p(styles);
+// let fruits = ["Apple", "Orange", "Plum"];
+//NOTE length property is writable
+//If we increase it manually, nothing interesting happens.
+//But if we decrease it, the array is truncated. The process is irreversible
+// fruits.length = 2; //fruits=["Apple","Orange"]
+// p(fruits);
+//NOTE If new Array is called with a single argument which is a number,
+//then it creates an array without items, but with the given length
+// let arr = new Array(2);
+// p(arr);//[...]
+// console.log(fruits.at(-1));
+//NOTE push and pop deal with end of the array(faster)
+//NOTE unshsift and shift deal with start of the array(slower)
+
 // function extractCurrencyValue(str)
 // {
 //   return str.slice(1);
