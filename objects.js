@@ -1,7 +1,9 @@
 function p(str) {
   console.log(str);
 }
+//TODO continue from Array transform in Array Methods
 
+//TODO maxSubArray Task
 // let styles = ["Jazz", "Blues"];
 // styles.push("Rock-n-Roll");
 // p(styles.length);
