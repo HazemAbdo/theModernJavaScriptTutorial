@@ -3,33 +3,48 @@ const { func } = require("prop-types");
 function p(str) {
   console.log(str);
 }
-let army = {
-  minAge: 18,
-  maxAge: 27,
-  canJoin(user) {
-    return user.age >= this.minAge && user.age < this.maxAge;
-  },
-};
+p(camelize("background-color"));
+p(camelize("list-style-image"));
+p(camelize("-webkit-transition"));
 
-let users = [{ age: 16 }, { age: 20 }, { age: 23 }, { age: 30 }];
-// arr.find(func, thisArg);
-// arr.filter(func, thisArg);
-// arr.map(func, thisArg);
-// thisArg is the optional last argument
-//The value of thisArg parameter becomes this for func
-// find users, for who army.canJoin returns true
-//The first time we pass thisArg to the function, it will be the object army.
-//As we the condition we check is not applied on
-// the array that calls filter(users) but on the object (army)
-let soldiers = users.filter(army.canJoin, army);
-// let soldiers = users.filter((user) => army.canJoin(user));
-console.log(soldiers.length); // 2
-console.log(soldiers[0].age); // 20
-console.log(soldiers[1].age); // 23
-//------------------------------------------------
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let sum = arr.reduce((sum, item) => sum + item, 0);
-p(sum);
+function camelize(str) {
+  let arr = str.split("");
+  return arr.reduce(function (acc, item) {
+    if (acc.charAt(acc.length - 1) == "-") {
+      acc = acc.slice(0, -1);
+      return acc + item.toUpperCase();
+    }
+    return acc + item;
+  }, "");
+}
+
+// let army = {
+//   minAge: 18,
+//   maxAge: 27,
+//   canJoin(user) {
+//     return user.age >= this.minAge && user.age < this.maxAge;
+//   },
+// };
+
+// let users = [{ age: 16 }, { age: 20 }, { age: 23 }, { age: 30 }];
+// // arr.find(func, thisArg);
+// // arr.filter(func, thisArg);
+// // arr.map(func, thisArg);
+// // thisArg is the optional last argument
+// //The value of thisArg parameter becomes this for func
+// // find users, for who army.canJoin returns true
+// //The first time we pass thisArg to the function, it will be the object army.
+// //As we the condition we check is not applied on
+// // the array that calls filter(users) but on the object (army)
+// let soldiers = users.filter(army.canJoin, army);
+// // let soldiers = users.filter((user) => army.canJoin(user));
+// console.log(soldiers.length); // 2
+// console.log(soldiers[0].age); // 20
+// console.log(soldiers[1].age); // 23
+// //------------------------------------------------
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let sum = arr.reduce((sum, item) => sum + item, 0);
+// p(sum);
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let newArr = [];
 // function ascendingSort(a, b) {
