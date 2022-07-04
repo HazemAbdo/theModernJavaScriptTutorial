@@ -3,22 +3,22 @@
 //A new empty object is created and assigned to this.
 //The function body executes. Usually it modifies this, adds new properties to it.
 //The value of this is returned.
-// function Calculator() {
-//   this.read = () => {
-//     this.firstVal = +prompt("please enter the first value", "5");
-//     this.secondVal = +prompt("please enter the second value", "3");
-//   };
-//   this.sum = () => {
-//     return this.firstVal + this.secondVal;
-//   };
-//   this.mul = () => {
-//     return this.firstVal * this.secondVal;
-//   };
-// }
-// let calculator = new Calculator();
-// calculator.read();
-// alert("Sum=" + calculator.sum());
-// alert("Mul=" + calculator.mul());
+function Calculator() {
+  this.read = () => {
+    this.firstVal = +prompt("please enter the first value", "5");
+    this.secondVal = +prompt("please enter the second value", "3");
+  };
+  this.sum = () => {
+    return this.firstVal + this.secondVal;
+  };
+  this.mul = () => {
+    return this.firstVal * this.secondVal;
+  };
+}
+let calculator = new Calculator();
+calculator.read();
+alert("Sum=" + calculator.sum());
+alert("Mul=" + calculator.mul());
 
 //NOTE Is it possible to create functions A and B so that new A() == new B()?
 //NOTE If a function returns an object then new returns it instead of this
