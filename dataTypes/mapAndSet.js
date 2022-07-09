@@ -99,3 +99,7 @@ visitsCountMap.set(john, 123);
 visitsCountMap[john2] = 123;
 console.log(visitsCountMap.get(john)); // 123
 console.log(visitsCountMap.get(john2)); // undefined
+
+let newMap=new Map();
+newMap.set(john, 1);
+newMap.set(john2, 2);
