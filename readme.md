@@ -42,6 +42,9 @@
   ### 3. ~~[x] [variableScopeClosure](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/variableScopeClosure.js)~~
   ### 4. ~~[x] [theOldVar](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/theOldVar.js)~~
   ### 5. ~~[x] [globalObject](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/globalObject.js)~~
+  ### 6. ~~[x] [functionObjectNFE](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/functionObjectNFE.js)~~
+  ### 7. ~~[x] [theNewFunctionSyntax](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/theNewFunctionSyntax.js)~~
+  ### 8. ~~[x] [schedulingsetTimeoutandsetInterval](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/schedulingsetTimeoutandsetInterval.js)~~
 
 
 </details>
