@@ -45,6 +45,7 @@
   ### 6. ~~[x] [functionObjectNFE](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/functionObjectNFE.js)~~
   ### 7. ~~[x] [theNewFunctionSyntax](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/theNewFunctionSyntax.js)~~
   ### 8. ~~[x] [schedulingsetTimeoutandsetInterval](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/schedulingsetTimeoutandsetInterval.js)~~
+    ### 8. ~~[x] [Decorators,Forwarding,Call,Apply](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/Decorators,Forwarding,Call,Apply.js)~~
 
 
 </details>
