@@ -71,8 +71,14 @@ function cachingDecoratorMultiArg(func, hash) {
     //but without the context this. Hence the error
     //DONOT
     // let result = func(x); // (*)
+    //-------
+    //apply-->array-like object  vs call-->list of arguments
+    // apply will probably be faster, because most JavaScript engines internally optimize it better
     //DO
-    let result = func.call(this, ...arguments);
+    // let result = func.call(this, ...arguments);
+    //DO another way
+    let result = func.apply(this, arguments);
+    //-------
     cache.set(key, result);
     return result;
   };
@@ -91,3 +97,92 @@ function hash(args) {
 worker2.slow = cachingDecoratorMultiArg(worker2.slow, hash);
 console.log(worker2.slow(3, 5, 7)); // works
 console.log("Again " + worker2.slow(3, 5, 7)); // same (cached)
+// //-------------------------------------------Tasks--------------------------------------------------------
+
+function work(a, b) {
+  console.log(a + b); // work is an arbitrary function or method
+}
+work = spy(work);
+
+work(1, 2); // 3
+work(4, 5); // 9
+
+for (let args of work.calls) {
+  console.log("call:" + args.join()); // "call:1,2", "call:4,5"
+}
+//decorator
+function spy(func) {
+  //wrapper
+  wrapper.calls = [];
+  function wrapper(...args) {
+    //original function
+    wrapper.calls.push(args);
+    func.apply(this, args);
+  }
+  return wrapper;
+}
+// //-------------------------------
+function f(x) {
+  console.log(x);
+}
+// create wrappers
+let f1000 = delay(f, 1000);
+let f1500 = delay(f, 3000);
+f1000("test"); // shows "test" after 1000ms
+f1500("test"); // shows "test" after 1500ms
+
+function delay(func, delay) {
+  function wrapper(...args) {
+    setTimeout(() => func.apply(this, args), delay);
+  }
+  return wrapper;
+}
+//-----------------------------------------
+let f2 = debounce(console.log, 1000);
+f2("a");
+setTimeout(() => f2("b"), 200);
+setTimeout(() => f2("c"), 500);
+// debounced function waits 1000ms after the last call and then runs: alert("c")
+function debounce(func, coolDownPeriod) {
+  let timer;
+  function wrapper(...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => func.apply(this, args), coolDownPeriod);
+  }
+  return wrapper;
+}
+//----------------------------------------------
+function f3(a) {
+  console.log(a);
+}
+// f1001 passes calls to f at maximum once per 1000 ms
+let f1001 = throttle(f3, 1000);
+f1001(1); // shows 1
+f1001(2); // (throttling, 1000ms not out yet)
+f1001(3); // (throttling, 1000ms not out yet)
+// when 1000 ms time out...
+// ...outputs 3, intermediate value 2 was ignored
+function throttle(func, ms) {
+  let isThrottled = false,
+    savedArgs,
+    savedThis;
+  function wrapper() {
+    if (isThrottled) {
+      // (2)
+      savedArgs = arguments;
+      savedThis = this;
+      return;
+    }
+    isThrottled = true;
+    func.apply(this, arguments); // (1)
+    setTimeout(function () {
+      isThrottled = false; // (3)
+      if (savedArgs) {
+        wrapper.apply(savedThis, savedArgs);
+        savedArgs = savedThis = null;
+      }
+    }, ms);
+  }
+
+  return wrapper;
+}

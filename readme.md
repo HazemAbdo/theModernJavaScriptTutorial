@@ -46,6 +46,8 @@
   ### 7. ~~[x] [theNewFunctionSyntax](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/theNewFunctionSyntax.js)~~
   ### 8. ~~[x] [schedulingsetTimeoutandsetInterval](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/schedulingsetTimeoutandsetInterval.js)~~
     ### 8. ~~[x] [Decorators,Forwarding,Call,Apply](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/Decorators,Forwarding,Call,Apply.js)~~
+    ### 9. ~~[x] [Function Binding](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/functionBinding.js)~~
+    ### 10. ~~[x] [Arrow functions revisited](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/arrowFunctionsRevisited.js)~~
 
 
 </details>
