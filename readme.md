@@ -49,5 +49,13 @@
   ### 10. ~~[x] [Function Binding](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/functionBinding.js)~~
   ### 11. ~~[x] [Arrow functions revisited](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/advancedWorkingWithFunctions/arrowFunctionsRevisited.js)~~
 
+</details>
 
+## Object properties configuration
+
+<details>
+  <summary>Click to expand!</summary>
+  
+  ### 1. ~~[x] [recursionAndStack](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/objectPropertiesConfiguration/propertyFlagsAndDescriptors.js)~~
+  ### 2. ~~[x] [restParametersAndSpread](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/objectPropertiesConfiguration/.js)~~
 </details>
