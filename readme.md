@@ -57,5 +57,5 @@
   <summary>Click to expand!</summary>
   
   ### 1. ~~[x] [recursionAndStack](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/objectPropertiesConfiguration/propertyFlagsAndDescriptors.js)~~
-  ### 2. ~~[x] [restParametersAndSpread](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/objectPropertiesConfiguration/.js)~~
+  ### 2. ~~[x] [restParametersAndSpread](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/objectPropertiesConfiguration/propertyGettersAndSetters.js)~~
 </details>
