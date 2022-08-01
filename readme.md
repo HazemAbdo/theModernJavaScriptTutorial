@@ -59,3 +59,15 @@
   ### 1. ~~[x] [recursionAndStack](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/objectPropertiesConfiguration/propertyFlagsAndDescriptors.js)~~
   ### 2. ~~[x] [restParametersAndSpread](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/objectPropertiesConfiguration/propertyGettersAndSetters.js)~~
 </details>
+
+</details>
+
+## Object properties configuration
+
+<details>
+  <summary>prototypes And Inheritance!</summary>
+  
+  ### 1. ~~[x] [prototypalInheritance](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/prototypesAndInheritance/prototypalInheritance.js)~~
+  ### 2. ~~[x] [F.prototype](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/prototypesAndInheritance/F.prototype.js)~~
+  ### 3. ~~[x] [nativePrototypes](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/prototypesAndInheritance/nativePrototypes.js)~~
+</details>
