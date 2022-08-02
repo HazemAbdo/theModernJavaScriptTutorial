@@ -1,11 +1,14 @@
+//In JavaScript, //*objects have a special hidden property [[Prototype]] , 
+//that is either null or references another object. That object is called “a prototype”:
+//--------------
 //When we read a property from object, and it’s missing, JavaScript automatically
 //takes it from the //*prototype.
 //--------------
 //There are only two limitations:
 //The references can’t go in circles. JavaScript will throw an error if we try to assign
 //! __proto__ in a circle.
-//The value of __proto__ can be either an object or null.Other types are ignored.
-//there can be only one [[Prototype]]. An object may not inherit from two others.
+//The value of __proto__ can be either an //*object or null.Other types are ignored.
+//An object may not inherit from two others.//*there can be only one [[Prototype]].
 //--------------
 //*__proto__ is a historical getter/setter for [[Prototype]]
 //Please note that __proto__ is not the same as the internal [[Prototype]] property.
@@ -40,7 +43,7 @@
 
 // delete animal.jumps;
 
-// console.log(rabbit.jumps); // ? (3)-->undefinied
+// console.log(rabbit.jumps); // ? (3)-->undefined
 //----------------------------------------------------------------
 let head = {
   glasses: 1,
@@ -79,7 +82,7 @@ let rabbit = {
 
 rabbit.eat();
 //? If we call rabbit.eat(), which object receives the full property: animal or rabbit?-->rabbit(it is the object before dot)
-//Property lookup and execution are two different things.
+//*Property lookup and execution are two different things.
 //The method rabbit.eat is first found in the prototype, then executed with this=rabbit
 //----------------------------------------------------------------
 //We have two hamsters: speedy and lazy inheriting from the general

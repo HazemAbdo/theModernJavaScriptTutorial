@@ -19,7 +19,7 @@ console.log(arr);
 // ....
 console.log(arr.__proto__ === Array.prototype); //true
 console.log(arr.__proto__.__proto__ === Object.prototype); //true
-console.log(arr.__proto__.__proto__.__proto__); //true
+console.log(arr.__proto__.__proto__.__proto__); //null
 function f() {}
 console.log(f.__proto__ == Function.prototype); // true
 console.log(f.__proto__.__proto__ == Object.prototype); // true

@@ -65,7 +65,7 @@
 ## Object properties configuration
 
 <details>
-  <summary>prototypes And Inheritance!</summary>
+  <summary>Click to expand!</summary>
   
   ### 1. ~~[x] [prototypalInheritance](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/prototypesAndInheritance/prototypalInheritance.js)~~
   ### 2. ~~[x] [F.prototype](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/prototypesAndInheritance/F.prototype.js)~~
