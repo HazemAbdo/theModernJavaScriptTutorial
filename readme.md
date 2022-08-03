@@ -70,4 +70,5 @@
   ### 1. ~~[x] [prototypalInheritance](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/prototypesAndInheritance/prototypalInheritance.js)~~
   ### 2. ~~[x] [F.prototype](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/prototypesAndInheritance/F.prototype.js)~~
   ### 3. ~~[x] [nativePrototypes](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/prototypesAndInheritance/nativePrototypes.js)~~
+   ### 4. ~~[x] [prototypeMethodsObjectsWithout __proto__](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/prototypesAndInheritance/prototypeMethodsObjectsWithout __proto__.js)~~
 </details>
