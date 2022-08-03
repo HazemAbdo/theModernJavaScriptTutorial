@@ -50,6 +50,9 @@ class Button {
   };
 }
 let button = new Button("hello");
+let button1 = new Button("world");
+console.log(button);
+console.log(button1);
 setTimeout(button.click, 1000);
 //-----------------------------------------------------TASKS------------------------------------------------
 //? Rewrite it in the “class” syntax
