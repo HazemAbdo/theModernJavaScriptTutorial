@@ -62,7 +62,7 @@
 
 </details>
 
-## Object properties configuration
+## prototypes And Inheritance
 
 <details>
   <summary>Click to expand!</summary>
@@ -71,4 +71,19 @@
   ### 2. ~~[x] [F.prototype](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/prototypesAndInheritance/F.prototype.js)~~
   ### 3. ~~[x] [nativePrototypes](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/prototypesAndInheritance/nativePrototypes.js)~~
    ### 4. ~~[x] [prototypeMethodsObjectsWithout __proto__](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/prototypesAndInheritance/prototypeMethodsObjectsWithout __proto__.js)~~
+</details>
+
+## classes,inheritance,and mixins
+
+<details>
+  <summary>Click to expand!</summary>
+  
+  ### 1. ~~[x] [classBasicSyntax](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/theClasses/classBasicSyntax.js)~~
+  ### 2. ~~[x] [classInheritance](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/theClasses/classInheritance.js)~~
+  ### 3. ~~[x] [staticPropertiesAndMethods](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/theClasses/staticPropertiesAndMethods.js)~~
+  ### 4. ~~[x] [privateAndProtectedPropertiesAndMethods](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/theClasses/privateAndProtectedPropertiesAndMethods.js)~~
+  ### 5. ~~[x] [extendingBuiltInClasses](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/theClasses/extendingBuiltInClasses.js)~~
+  ### 6. ~~[x] [classCheckingInstanceof](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/theClasses/classCheckingInstanceof.js)~~
+  ### 7. ~~[x] [mixins](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/theClasses/mixins.js)~~
+ 
 </details>
