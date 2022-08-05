@@ -87,3 +87,13 @@
   ### 7. ~~[x] [mixins](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/theClasses/mixins.js)~~
  
 </details>
+
+## Error Handling
+
+<details>
+  <summary>Click to expand!</summary>
+  
+  ### 1. ~~[x] [tryCatch](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/errorHandling/tryCatch.js)~~
+  ### 2. ~~[x] [customErrors](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/errorHandling/customErrors.js)~~
+
+</details>
