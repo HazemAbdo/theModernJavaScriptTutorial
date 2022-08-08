@@ -1,7 +1,7 @@
 "use strict";
 //When a promise rejects, the control jumps to the closest rejection handler(.catch)
 //-----------------
-//The code of a promise executor and promise handlers has an //* "invisible try..catch" around it.
+//The code of a promise ((executor)) and promise ((handlers)) has an //* "invisible try..catch" around it.
 //If an //* exception happens, it gets caught and treated as a rejection.
 new Promise((resolve, reject) => {
   resolve("ok");
