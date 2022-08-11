@@ -97,3 +97,30 @@
   ### 2. ~~[x] [customErrors](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/errorHandling/customErrors.js)~~
 
 </details>
+
+## Callbacks, Promises, and Async/Await
+
+<details>
+  <summary>Click to expand!</summary>
+  
+  ### 1. ~~[x] [callbacks](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/promisesAsyncAwait/callbacks.js)~~
+   ### 2. ~~[x] [Promise](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/promisesAsyncAwait/Promise.js)~~
+  ### 3. ~~[x] [promisesChaining](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/promisesAsyncAwait/promisesChaining.js)~~
+  ### 4. ~~[x] [errorHandlingWithPromises](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/promisesAsyncAwait/errorHandlingWithPromises.js)~~
+  ### 5. ~~[x] [promiseAPI](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/promisesAsyncAwait/promiseAPI.js)~~
+  ### 6. ~~[x] [promisification](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/promisesAsyncAwait/promisification.js)~~
+  ### 7. ~~[x] [microTasks](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/promisesAsyncAwait/microTasks.js)~~
+  ### 8. ~~[x] [asyncAwait](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/promisesAsyncAwait/asyncAwait.js)~~
+  ### 9. ~~[x] [iceCreamExample](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/promisesAsyncAwait/iceCreamExample.js)~~
+
+</details>
+
+## Generators
+
+<details>
+  <summary>Click to expand!</summary>
+  
+  ### 1. ~~[x] [generators](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/generators/generators.js)~~
+  ### 1. ~~[x] [asyncIterablesAndGenerators](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/generators/asyncIterablesAndGenerators.js)~~
+
+</details>
