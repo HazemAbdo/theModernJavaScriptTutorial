@@ -90,3 +90,17 @@ async function* fetchCommits(repo) {
     }
   }
 }
+(async () => {
+  let count = 0;
+
+  for await (const commit of fetchCommits(
+    "javascript-tutorial/en.javascript.info"
+  )) {
+    console.log(commit.author.login);
+
+    if (++count == 100) {
+      // let's stop at 100 commits
+      break;
+    }
+  }
+})();

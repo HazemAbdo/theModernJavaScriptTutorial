@@ -121,6 +121,17 @@
   <summary>Click to expand!</summary>
   
   ### 1. ~~[x] [generators](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/generators/generators.js)~~
-  ### 1. ~~[x] [asyncIterablesAndGenerators](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/generators/asyncIterablesAndGenerators.js)~~
+  ### 2. ~~[x] [asyncIterablesAndGenerators](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/generators/asyncIterablesAndGenerators.js)~~
+
+</details>
+
+## Modules
+
+<details>
+  <summary>Click to expand!</summary>
+  
+  ### 1. ~~[x] [generators](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/modules/modules.js)~~
+  ### 2. ~~[x] [asyncIterablesAndGenerators](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/modules/exportAndImport.js)~~
+  ### 3. ~~[x] [asyncIterablesAndGenerators](https://github.com/HazemAbdo/theModernJavaScriptTutorial/blob/main/modules/dynamicImport.js)~~
 
 </details>
